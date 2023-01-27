@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  kutt:
+  - apiVersion: v2
+    appVersion: v2.7.4
+    created: "2023-01-27T12:36:20.359372+02:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.11
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.6.0
+    description: Kutt is a free modern URL shortener.
+    digest: af0be0ccd60e1c2f3f162dd7d042a0ccab8d5f93fd4525870aa6a4ef728409d5
+    name: kutt
+    type: application
+    urls:
+    - https://github.com/vpbonev/kutt-chart/kutt-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-01-27T12:36:20.347115+02:00"
